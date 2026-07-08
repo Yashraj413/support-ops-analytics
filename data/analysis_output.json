@@ -1,0 +1,278 @@
+{
+  "kpi": {
+    "total_tickets": 15400,
+    "avg_resolution_hours": 9.7,
+    "sla_compliance_pct": 82.0,
+    "total_cost_usd": 619671.0,
+    "repeat_ticket_rate_pct": 3.8,
+    "avg_satisfaction": 3.93,
+    "churn_rate_pct": 16.3
+  },
+  "cost_by_category": [
+    {
+      "category": "Technical Issue",
+      "ticket_count": 4323,
+      "avg_resolution_hours": 10.8,
+      "sla_breach_pct": 0.4,
+      "total_cost": 245933.0,
+      "avg_cost_per_ticket": 56.89,
+      "repeat_rate_pct": 2.2
+    },
+    {
+      "category": "Billing",
+      "ticket_count": 3379,
+      "avg_resolution_hours": 9.1,
+      "sla_breach_pct": 2.0,
+      "total_cost": 139256.0,
+      "avg_cost_per_ticket": 41.21,
+      "repeat_rate_pct": 9.9
+    },
+    {
+      "category": "Password Reset",
+      "ticket_count": 2813,
+      "avg_resolution_hours": 10.8,
+      "sla_breach_pct": 89.0,
+      "total_cost": 95239.0,
+      "avg_cost_per_ticket": 33.86,
+      "repeat_rate_pct": 1.8
+    },
+    {
+      "category": "Shipping/Delivery",
+      "ticket_count": 2564,
+      "avg_resolution_hours": 8.8,
+      "sla_breach_pct": 2.2,
+      "total_cost": 77387.0,
+      "avg_cost_per_ticket": 30.18,
+      "repeat_rate_pct": 2.0
+    },
+    {
+      "category": "Account Management",
+      "ticket_count": 2321,
+      "avg_resolution_hours": 8.3,
+      "sla_breach_pct": 5.6,
+      "total_cost": 61856.0,
+      "avg_cost_per_ticket": 26.65,
+      "repeat_rate_pct": 2.3
+    }
+  ],
+  "cost_headline": {
+    "priciest_category": "Technical Issue",
+    "cheapest_category": "Account Management",
+    "cost_multiple": 2.1
+  },
+  "hardest_combo": [
+    {
+      "channel": "Mobile App",
+      "plan": "Premium",
+      "peak_season": true,
+      "ticket_count": 180,
+      "avg_resolution_hours": 11.4
+    },
+    {
+      "channel": "Phone",
+      "plan": "Premium",
+      "peak_season": true,
+      "ticket_count": 149,
+      "avg_resolution_hours": 10.9
+    },
+    {
+      "channel": "Mobile App",
+      "plan": "Free",
+      "peak_season": true,
+      "ticket_count": 252,
+      "avg_resolution_hours": 10.8
+    },
+    {
+      "channel": "Mobile App",
+      "plan": "Standard",
+      "peak_season": true,
+      "ticket_count": 285,
+      "avg_resolution_hours": 10.5
+    },
+    {
+      "channel": "Email",
+      "plan": "Free",
+      "peak_season": true,
+      "ticket_count": 207,
+      "avg_resolution_hours": 10.4
+    }
+  ],
+  "tenure_escalation": [
+    {
+      "new_agent": false,
+      "complexity": "Low",
+      "escalation_rate_pct": 35.5
+    },
+    {
+      "new_agent": false,
+      "complexity": "Medium",
+      "escalation_rate_pct": 26.8
+    },
+    {
+      "new_agent": false,
+      "complexity": "High",
+      "escalation_rate_pct": 32.0
+    },
+    {
+      "new_agent": true,
+      "complexity": "Low",
+      "escalation_rate_pct": 34.8
+    },
+    {
+      "new_agent": true,
+      "complexity": "Medium",
+      "escalation_rate_pct": 37.8
+    },
+    {
+      "new_agent": true,
+      "complexity": "High",
+      "escalation_rate_pct": 72.2
+    }
+  ],
+  "training_gap_multiple": 2.3,
+  "process_waste": {
+    "password_reset_escalation_pct": 69.9,
+    "avg_tier1_queue_hours_pw": 6.3,
+    "avg_tier2_queue_hours_pw": 4.8,
+    "pct_of_all_tickets": 18.3
+  },
+  "repeat_analysis": [
+    {
+      "category": "Billing",
+      "repeat_rate_pct": 9.9
+    },
+    {
+      "category": "Account Management",
+      "repeat_rate_pct": 2.3
+    },
+    {
+      "category": "Technical Issue",
+      "repeat_rate_pct": 2.2
+    },
+    {
+      "category": "Shipping/Delivery",
+      "repeat_rate_pct": 2.0
+    },
+    {
+      "category": "Password Reset",
+      "repeat_rate_pct": 1.8
+    }
+  ],
+  "repeat_cost_summary": {
+    "total_repeat_related_cost": 51832.0,
+    "billing_repeat_cost": 31430.0,
+    "billing_share_of_repeat_cost_pct": 60.6,
+    "pct_of_total_support_cost": 8.4
+  },
+  "churn_by_ticket_volume": [
+    {
+      "bucket": "0 tickets",
+      "churn_rate_pct": 7.3
+    },
+    {
+      "bucket": "1 ticket",
+      "churn_rate_pct": 6.1
+    },
+    {
+      "bucket": "2-3 tickets",
+      "churn_rate_pct": 16.2
+    },
+    {
+      "bucket": "4+ tickets",
+      "churn_rate_pct": 28.8
+    }
+  ],
+  "churn_headline": {
+    "baseline_churn_pct": 7.3,
+    "multi_ticket_churn_pct": 20.5,
+    "churn_lift_multiple": 2.79
+  },
+  "staffing_model": {
+    "current_tier2_headcount": 14,
+    "current_sla_compliance_pct": 82.0,
+    "current_tier2_utilization_pct": 26.5,
+    "avg_fully_loaded_annual_cost_per_agent": 55304.0,
+    "scenarios": [
+      {
+        "added_agents": 1,
+        "annual_cost_usd": 55304.0,
+        "new_sla_compliance_pct": 83.2,
+        "breaches_avoided": 192,
+        "operational_savings_usd": 8239.0,
+        "churn_avoidance_value_usd": 5760.0,
+        "net_annual_benefit_usd": -41305.0
+      },
+      {
+        "added_agents": 2,
+        "annual_cost_usd": 110608.0,
+        "new_sla_compliance_pct": 84.3,
+        "breaches_avoided": 360,
+        "operational_savings_usd": 15448.0,
+        "churn_avoidance_value_usd": 10800.0,
+        "net_annual_benefit_usd": -84361.0
+      },
+      {
+        "added_agents": 3,
+        "annual_cost_usd": 165913.0,
+        "new_sla_compliance_pct": 85.3,
+        "breaches_avoided": 509,
+        "operational_savings_usd": 21841.0,
+        "churn_avoidance_value_usd": 15270.0,
+        "net_annual_benefit_usd": -128801.0
+      },
+      {
+        "added_agents": 4,
+        "annual_cost_usd": 221217.0,
+        "new_sla_compliance_pct": 86.2,
+        "breaches_avoided": 641,
+        "operational_savings_usd": 27506.0,
+        "churn_avoidance_value_usd": 19230.0,
+        "net_annual_benefit_usd": -174481.0
+      }
+    ]
+  },
+  "forecast": {
+    "historical_monthly": {
+      "2025-01": 1396,
+      "2025-02": 1199,
+      "2025-03": 1317,
+      "2025-04": 1284,
+      "2025-05": 1297,
+      "2025-06": 1255,
+      "2025-07": 1223,
+      "2025-08": 1299,
+      "2025-09": 1254,
+      "2025-10": 1291,
+      "2025-11": 1254,
+      "2025-12": 1331
+    },
+    "forecast_months": {
+      "2026-01": 1270,
+      "2026-02": 1268,
+      "2026-03": 1266
+    }
+  },
+  "recommendations": {
+    "layer1_quick_win": {
+      "action": "Deploy self-service FAQ/automation for top 3 Password Reset & Billing questions",
+      "timeline": "< 1 month",
+      "effort": "Low",
+      "impact": "Removes ~69.9% needless Tier-2 handoffs on Password Reset (18.3% of all tickets)",
+      "estimated_annual_savings_usd": 64137.0
+    },
+    "layer2_process_redesign": {
+      "action": "Rebalance Tier-1/Tier-2 routing rules; route low-complexity Password Reset direct to self-service, not Tier-1 queue",
+      "timeline": "1-2 months",
+      "effort": "Medium",
+      "impact": "Further reduces Tier-1 queue load, frees agent time for high-complexity Billing/Technical tickets"
+    },
+    "layer3_staffing": {
+      "action": "Targeted seasonal surge staffing (temp/contract Tier-2, Nov-Dec only) for Mobile+Premium segment ONLY \u2014 not permanent headcount",
+      "timeline": "Seasonal, 2 months/year",
+      "effort": "Low (contract, not FTE)",
+      "impact": "SLA compliance 82.0% -> 84.3% during peak; avoids the fixed-cost mistake of permanent hires",
+      "net_annual_benefit_usd": -84361.0,
+      "counter_intuitive_finding": "Permanent Tier-2 headcount additions are NOT ROI-positive at current scale (2 new agents cost $110,608/yr but only save $26,248/yr) because most breach-driving queue time is process waste (needless Password Reset escalations), not a true capacity shortfall. Fix the process first; only add seasonal surge capacity for the genuine Mobile+Premium peak-season spike."
+    }
+  }
+}
