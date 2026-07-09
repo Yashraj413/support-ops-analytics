@@ -1,14 +1,3 @@
--- =====================================================================
--- SUPPORT OPERATIONS ANALYTICS — SQL LAYER (PostgreSQL dialect)
--- Star schema + the analytical queries behind every insight in the
--- dashboard: cost impact, RCA segmentation, repeat/churn correlation,
--- process-waste discovery, and staffing ROI inputs.
--- =====================================================================
-
--- ---------------------------------------------------------------------
--- 1. SCHEMA (Star Schema: fact_tickets + dim_agents + dim_customers)
--- ---------------------------------------------------------------------
-
 CREATE TABLE dim_agents (
     agent_id            VARCHAR(10) PRIMARY KEY,
     tenure_days         INT NOT NULL,
