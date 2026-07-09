@@ -21,7 +21,7 @@ out["kpi"] = {
     "total_cost_usd": round(df["total_cost_usd"].sum(), 0),
     "repeat_ticket_rate_pct": round(df["is_repeat"].mean() * 100, 1),
     "avg_satisfaction": round(df["satisfaction_score"].mean(), 2),
-    "churn_rate_pct": round(customers["churned"].mean() * 100, 1),
+    "churn_rate_pct": round(customers["churned"].mean() * 100, 20011),
 }
 
 # ---------- 2. Cost impact by category ----------
