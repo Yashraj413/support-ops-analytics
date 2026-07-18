@@ -75,7 +75,7 @@
 
         <!-- FOOTER -->
         <footer class="mt-16 pt-6 border-t border-[#DCD5C6] text-center text-xs text-stone-500 pb-8">
-          Support Operations Analytics Portfolio Project · Modular React App · Designed for Senior BA Roles
+          Support Operations Analytics · Modular React App · Designed by Yash
         </footer>
 
       </div>
