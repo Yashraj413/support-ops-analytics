@@ -1,7 +1,7 @@
 (() => {
   const { useState, useEffect } = React;
 
-  window.App = function() {
+  window.App = function () {
     const [data, setData] = useState(window.FALLBACK_DATA);
     const [status, setStatus] = useState("Loaded Local Fallback");
     const [isLive, setIsLive] = useState(false);
@@ -9,7 +9,7 @@
     useEffect(() => {
       async function loadData() {
         try {
-          const response = await fetch('../data/analysis_output.json');
+          const response = await fetch('./data/analysis_output.json');
           if (response.ok) {
             const liveData = await response.json();
             setData(liveData);
