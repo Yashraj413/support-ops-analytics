@@ -1,4 +1,4 @@
-# Support Operations Analytics — Full Project
+# Support Operations Analytics Project
 
 An end-to-end support operations analytics project: synthetic data generation, SQL analytics layer,
 Python analysis engine, and an interactive React dashboard. Built to demonstrate BA/data-analyst

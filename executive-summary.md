@@ -39,35 +39,3 @@ would waste six figures a year.
    the Tier-1 queue entirely → frees ~1,900 queue-hours/year for genuinely complex tickets
 3. **Targeted, not blanket, staffing:** Contract (not FTE) Tier-2 coverage for Nov–Dec, Mobile+Premium
    segment only — the one segment with a real seasonal capacity gap (82% → 84.3% peak SLA)
-
----
-
-## Resume Bullet
-
-> Designed and built an end-to-end Support Operations Analytics system (PostgreSQL star schema,
-> Python cost/RCA modeling, interactive React dashboard) analyzing 15,400 tickets across 5 categories;
-> identified a process-waste pattern causing 70% of Password Reset tickets to be needlessly escalated
-> and a training gap causing new agents to escalate complex tickets 2.3× more than experienced agents;
-> built a staffing ROI simulator proving permanent headcount additions were net-negative ($110K cost vs
-> $26K return), redirecting a hiring decision toward a $64K/year process fix instead; quantified a 2.79×
-> churn-rate lift among repeat-ticket customers, reframing support volume as a leading churn indicator.
-
-## Interview Talking Points
-
-- **"Walk me through a time you found something counter-intuitive in data."** → Finding D: the obvious
-  fix (hire more agents) tested false. Show the simulator, the math, and why utilization data mattered
-  more than SLA breach rate alone.
-- **"How do you turn an operational metric into a business case?"** → Finding A/B: cost-per-ticket by
-  category plus queue-time decomposition (Tier-1 wait vs Tier-2 wait vs actual work) turns "SLA breach %"
-  into a dollar figure a VP can act on.
-- **"How do support and product/success teams overlap?"** → Finding C: repeat tickets as a documentation
-  gap, and ticket volume as a churn predictor — this is the cross-functional framing that separates a BA
-  from a dashboard builder.
-
-## Files Delivered
-- `support-ops-dashboard.jsx` — interactive dashboard (KPIs, cost charts, RCA visuals, live staffing
-  simulator, layered recommendations)
-- `schema_and_queries.sql` — PostgreSQL star schema (fact_tickets, dim_agents, dim_customers) + all 10
-  analytical queries behind the findings above, including window-function cohort analysis
-- `generate_data.py` / `analyze.py` — synthetic data generator with intentionally embedded realistic
-  patterns, and the full analysis engine (cost impact, RCA, churn correlation, staffing ROI, forecast)
